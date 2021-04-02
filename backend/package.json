@@ -1,0 +1,25 @@
+{
+  "name": "alice-core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=dev PORT=4000 NODE_PATH=src nodemon",
+    "test": "cross-env NODE_PATH=src jest"
+  },
+  "author": "isaacguerreir",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7"
+  }
+}

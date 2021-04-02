@@ -1,0 +1,24 @@
+{
+	"configurations": {
+		"run": {
+			"adapter": "vscode-node",
+			"configuration": {
+				"console": "integratedTerminal",
+				"env": {
+					"NODE_ENV": "dev",
+					"NODE_PATH": "src",
+					"SERVER_PORT": "3000"
+				},
+				"name": "Debug Dev",
+				"program": "${workspaceFolder}/index.js",
+				"request": "launch",
+				"skipFiles": [
+					"<node_internals>/**"
+				],
+				"timeout": 30000,
+				"type": "node"
+			}
+		}
+	}
+
+}
