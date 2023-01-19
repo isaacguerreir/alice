@@ -1,0 +1,19 @@
+{
+  "name": "alice",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "engines": {
+    "node": ">=14.16"
+	},
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.4"
+  }
+}
